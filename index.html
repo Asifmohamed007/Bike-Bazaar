@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeBazaar</title>
+    <link rel="icon" href="./images/tab logo.webp" type="image/png">
+
+     <!-- I am Asif Mohamed Mohideen, a recent graduate from Jerusalem College of Engineering in Chennai, where I completed my Bachelor's Degree in Information Technology (B.Tech) in 2024. Throughout my academic journey, I have developed a strong foundation in various aspects of IT, with a particular interest in front-end development.
+
+    As a fresher, I have focused my learning and projects on front-end technologies, where I’ve gained hands-on experience in HTML, CSS, and JavaScript. I am passionate about creating intuitive and engaging user interfaces that enhance user experience and contribute to the overall success of web applications.
+
+    During my studies, I completed several projects that allowed me to apply my skills in practical scenarios, such as developing responsive web designs and interactive websites. These projects not only solidified my technical abilities but also taught me the importance of collaboration, problem-solving, and continuous learning.
+
+    I am eager to bring my enthusiasm for front-end development to a dynamic team where I can contribute, grow, and continue to build on my knowledge and skills. I am particularly interested in opportunities that allow me to work on innovative projects and leverage my creativity to solve real-world problems.
+
+    Portfolio link: https://asifmohamed-portfolio.netlify.app/ -->
+
+
+
+    <!-- DONT USE THIS CODE WITHOUT PERMISSION FOR DETAILS CONTACT VIA --https://asifmohamed-portfolio.netlify.app/  -->
+     
+    <!-- boxicons -->
+    <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css">
+    <!-- app css -->
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <a href="https://asifmohamed-portfolio.netlify.app/" class="logo">
+            <img src="./images/bikebazzar_logo-removebg-preview.png" alt="Logo" style="height: 140px; width: 170px;">
+        </a>
+        <div class="main-menu-wrapper">
+            <ul class="main-menu">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">dealer</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <ul class="user-menu">
+            <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
+            <li><a href="#"><i class='bx bx-user'></i></a></li>
+            <li><a href="#"><i class='bx bx-search'></i></a></li>
+        </ul>
+    </header>
+    <!-- end header -->
+
+    <!-- hero slide -->
+    <div class="hero">
+        <div class="slide-container" id="hero-slide">
+            <!-- slide item -->
+            <div class="slide">
+                <div class="slide-txt">
+                    <div class="slide-title">
+                        <h3>Hero Cycles</h3>
+                    </div>
+                    <div class="slide-description">
+                        <p>Hero Cycles, a leading name in the Indian bicycle market, has been delivering quality and innovation for over 70 years. Known for their wide range of reliable and stylish bikes, Hero Cycles caters to cyclists of all ages and preferences. Discover their collection for a blend of performance and dependability.</p>
+                    </div>
+                    <div class="slide-btn">
+                        <a href="#" class="hero-btn">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-img">
+                    <img src="./images/MTBROMO_N7_2022.png" alt="">
+                </div>
+            </div>
+            <!-- end slide item -->
+            <!-- slide item -->
+            <div class="slide">
+                <div class="slide-txt">
+                    <div class="slide-title">
+                        <h3>BSA Cycles</h3>
+                    </div>
+                    <div class="slide-description">
+                        <p>BSA Cycles, a trusted brand under the TI Cycles umbrella, offers a diverse range of durable and high-quality bicycles. Known for their reliability and performance, BSA Cycles provides options for every rider, from kids to adults. Explore their collection for stylish and dependable bikes designed to enhance your riding experience.</p>
+                    </div>
+                    <div class="slide-btn">
+                        <a href="#" class="hero-btn">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-img">
+                    <img src="./images/6489548.png" alt="">
+                </div>
+            </div>
+            <!-- end slide item -->
+            <!-- slide item -->
+            <div class="slide">
+                <div class="slide-txt">
+                    <div class="slide-title">
+                        <h3>Atlas Cycles</h3>
+                    </div>
+                    <div class="slide-description">
+                        <p>Atlas Cycles is a prominent name in the Indian bicycle industry, known for its wide array of affordable and reliable bikes. With a legacy of innovation and quality, Atlas offers bicycles that cater to various needs, from everyday commuting to recreational riding. Discover their range for dependable performance and excellent value.</p>
+                    </div>
+                    <div class="slide-btn">
+                        <a href="#" class="hero-btn">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-img">
+                    <img src="./images/b1.png" alt="">
+                </div>
+            </div>
+            <!-- end slide item -->
+            <div class="hero-txt">
+                you ride
+            </div>
+            <!-- slide control -->
+            <ul class="slide-control">
+                <li class="slide-prev"><i class="bx bx-chevron-left"></i></li>
+                <li class="slide-control-item active">01</li>
+                <li class="slide-control-item">02</li>
+                <li class="slide-control-item">03</li>
+                <li class="slide-next"><i class="bx bx-chevron-right"></i></li>
+            </ul>
+            <!-- end slide control -->
+        </div>
+    </div>
+    <!-- end hero slide -->
+
+    <!-- category section -->
+    <div class="section">
+        <div class="section-title">
+            <h3 class="second-title to-right show-on-scroll">bike category</h3>
+            <h3 class="main-title to-left show-on-scroll">choose your style</h3>
+        </div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-4">
+                    <div class="category-img to-top show-on-scroll">
+                        <div class="category-img-inner" style="background-image: url(./images/alvan-nee-EHILKZNmTuA-unsplash.jpg);"></div>
+                        <div class="category-title">
+                            Urban
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="category-img to-top show-on-scroll">
+                        <div class="category-img-inner" style="background-image: url(./images/eberhard-grossgasteiger-8lDkmXnKo7s-unsplash.jpg);"></div>
+                        <div class="category-title">
+                            mountain
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="category-img to-top show-on-scroll">
+                        <div class="category-img-inner" style="background-image: url(./images/tom-austin-3L76b-LMyeI-unsplash.jpg);"></div>
+                        <div class="category-title">
+                            Road
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end category section -->
+
+    <!-- new arrivals section -->
+    <div class="section">
+        <div class="section-title">
+            <h3 class="second-title to-right show-on-scroll">new bikes</h3>
+            <h3 class="main-title to-left show-on-scroll">new arrivals</h3>
+            <div class="btn-wrapper">
+                <div class="to-top show-on-scroll">
+                    <a href="#" class="btn ">view all bikes</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-5 col-center">
+                    <div class="to-right show-on-scroll">
+                        <div class="product-card product-card-large">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/Polygon Cascade.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Hero Octane
+                                </h3>
+                                <span class="product-price">
+                                     ₹15,000
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="to-top show-on-scroll">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-card-img">
+                                            <img src="./images/b2.png" alt="">
+                                        </div>
+                                        <h3 class="product-name">
+                                            Atlas Ultimate
+                                        </h3>
+                                        <span class="product-price">
+                                            ₹14,000
+                                        </span>
+                                    </a>
+                                    <button class="btn">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="to-top show-on-scroll">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-card-img">
+                                            <img src="./images/MTBROMO_N7_2022.png" alt="">
+                                        </div>
+                                        <h3 class="product-name">
+                                            BSA Hawk
+                                        </h3>
+                                        <span class="product-price">
+                                            ₹17,000
+                                        </span>
+                                    </a>
+                                    <button class="btn">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="to-top show-on-scroll">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-card-img">
+                                            <img src="./images/b1.png" alt="">
+                                        </div>
+                                        <h3 class="product-name">
+                                            Hero Electro
+                                        </h3>
+                                        <span class="product-price">
+                                            ₹40,000
+                                        </span>
+                                    </a>
+                                    <button class="btn">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="to-top show-on-scroll">
+                                <div class="product-card">
+                                    <a href="#">
+                                        <div class="product-card-img">
+                                            <img src="./images/531352.png" alt="">
+                                        </div>
+                                        <h3 class="product-name">
+                                            Atlas Venom
+                                        </h3>
+                                        <span class="product-price">
+                                            ₹18,000
+                                        </span>
+                                    </a>
+                                    <button class="btn">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end new arrivals section -->
+
+    <!-- special bike -->
+    <div class="section special-section">
+        <div class="section-title">
+            <h3 class="second-title to-left show-on-scroll">
+                best seller
+            </h3>
+            <h3 class="main-title to-right show-on-scroll">Hero Urban Pro</h3>
+            <div class="special-price to-top show-on-scroll">
+                ₹20,000
+            </div>
+            <div class="to-top show-on-scroll">
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+        <div class="special-img">
+            <img src="./images/6489548.png" alt="" class="to-left show-on-scroll">
+        </div>
+    </div>
+    <!-- end special bike -->
+
+    <!-- popular section -->
+    <div class="section">
+        <div class="section-title">
+            <h3 class="second-title to-right show-on-scroll">customer choice</h3>
+            <h3 class="main-title to-left show-on-scroll">popular bikes</h3>
+            <div class="btn-wrapper">
+                <div class="to-top show-on-scroll">
+                    <a href="#" class="btn">view all bikes</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/6489548.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Atlas Thunder
+                                </h3>
+                                <span class="product-price">
+                                    ₹25,000
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/Polygon Cascade.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    BSA Trailblazer
+                                </h3>
+                                <span class="product-price">
+                                    ₹30,000
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/b2.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Atlas Pro E-Bike
+                                </h3>
+                                <span class="product-price">
+                                    ₹55,000
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/MTBROMO_N7_2022.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Hero Sprint Pro
+                                </h3>
+                                <span class="product-price">
+                                    ₹27,000
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/b1.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Atlas Thunder
+                                </h3>
+                                <span class="product-price">
+                                    ₹25,999
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/531352.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Atlas Aero
+                                </h3>
+                                <span class="product-price">
+                                    ₹29,999
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/b2.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    BSA Urban Cruiser
+                                </h3>
+                                <span class="product-price">
+                                    ₹23,000
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="to-top show-on-scroll">
+                        <div class="product-card">
+                            <a href="#">
+                                <div class="product-card-img">
+                                    <img src="./images/6489548.png" alt="">
+                                </div>
+                                <h3 class="product-name">
+                                    Hero Sprint Pro
+                                </h3>
+                                <span class="product-price">
+                                    ₹27,999
+                                </span>
+                            </a>
+                            <button class="btn">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end popular section -->
+
+    <!-- news section -->
+    <div class="section">
+        <div class="section-title">
+            <h3 class="second-title to-right show-on-scroll">bike news</h3>
+            <h3 class="main-title to-left show-on-scroll">latest news</h3>
+            <div class="btn-wrapper">
+                <div class=" to-top show-on-scroll">
+                    <a href="#" class="btn">view all news</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-4">
+                    <div class="news-card to-top show-on-scroll">
+                        <a href="#" class="news-card-img">
+                            <div class="img-wrapper">
+                                <div class="img" style="background-image: url(./images/portuguese-gravity-MLbsn2aQfQs-unsplash.jpg);"></div>
+                            </div>
+                        </a>
+                        <h3 class="news-title">
+                            <a href="#">
+                                Cycling Trends: Embracing the Latest Innovations and Eco-Friendly Designs
+                            </a>
+                        </h3>
+                        <p class="news-preview">
+                            Recent cycling news highlights a surge in innovative bike designs and technology, with new models featuring advanced materials, improved suspension systems, and extended battery life for e-bikes.Alongside these technical advancements, there’s a growing emphasis on sustainability, with many brands adopting eco-friendly manufacturing practices and materials. These trends are shaping the future of cycling, enhancing performance while promoting environmental responsibility.
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="news-card to-top show-on-scroll">
+                        <a href="#" class="news-card-img">
+                            <div class="img-wrapper">
+                                <div class="img" style="background-image: url(./images/asoggetti-HPpj2190tGs-unsplash.jpg);"></div>
+                            </div>
+                        </a>
+                        <h3 class="news-title">
+                            <a href="#">
+                               Cycling News: The Rise of Smart Bikes and Green Innovations
+                            </a>
+                        </h3>
+                        <p class="news-preview">
+                            Recent developments in cycling have introduced a wave of smart bikes, equipped with advanced sensors and connectivity features for a more interactive and data-driven riding experience. Alongside these tech advancements, there is a growing focus on green technology, with new bike models incorporating sustainable materials and energy-efficient designs.
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="news-card to-top show-on-scroll">
+                        <a href="#" class="news-card-img">
+                            <div class="img-wrapper">
+                                <div class="img" style="background-image: url(./images/paolo-chiabrando-KSwd2lb3lfs-unsplash.jpg);"></div>
+                            </div>
+                        </a>
+                        <h3 class="news-title">
+                            <a href="#">
+                                Cycling Update: Embracing Tech and Sustainability
+                            </a>
+                        </h3>
+                        <p class="news-preview">
+                            The cycling world is buzzing with the latest updates, including the rise of smart bikes that integrate GPS tracking, performance analytics, and connectivity features. These innovations are designed to enhance the riding experience with real-time data and personalized feedback.
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end news section -->
+
+    <!-- footer section -->
+    <footer>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-4">
+                    <a href="#" class="logo">
+                        <img src="./images/bikebazzar_logo-removebg-preview.png" alt="" style="height: 300px; width: 270px;">
+                    </a>
+                    <p class="footer-description">
+                        Thank you for visiting BikeBazaar! Explore our curated selection of top-quality bikes and stay updated with the latest cycling trends and innovations. Whether you're looking for your next ride or seeking expert insights, BikeBazaar is your go-to destination for all things cycling. Ride on and stay connected with us for more updates and exclusive offers!
+                    </p>
+                    <ul class="socials">
+                        <li><a href="https://asifmohamed-portfolio.netlify.app"><i class="bx bxl-facebook-circle"></i></a></li>
+                        <li><a href="https://asifmohamed-portfolio.netlify.app"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="https://asifmohamed-portfolio.netlify.app"><i class="bx bxl-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="footer-menu">
+                        <li><a href="https://asifmohamed-portfolio.netlify.app" target="_blank">about</a></li>
+                        <li><a href="#">service</a></li>
+                        <li><a href="#">product</a></li>
+                        <li><a href="https://asifmohamed-portfolio.netlify.app">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="footer-menu">
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">gears</a></li>
+                        <li><a href="#">faq</a></li>
+                        <li><a href="https://asifmohamed-portfolio.netlify.app">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3 class="footer-header">
+                        News Letter
+                    </h3>
+                    <p class="footer-description">Subscribe to the BikeBazaar newsletter for the latest updates on new bikes, exclusive offers, and expert cycling tips. Be the first to know about our exciting deals and stay informed on all things cycling. Sign up today and ride with the best!</p>
+                    <div class="subscribe-form">
+                        <div class="form-container">
+                            <h2>Contact Us!!!</h2>
+                            <form class="rnt-contact-form rwt-dynamic-form row" name="BikeBazaar-Form" id="contact-form" method="POST" data-netlify="true">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- app js -->
+    <script src="./app.js"></script>
+    <style>
+        .form-container {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container label {
+            margin-bottom: 5px;
+            color: #555;
+            text-align: left;
+            width: 100%;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container textarea {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .form-container textarea {
+            resize: vertical;
+        }
+
+        .form-container button {
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+     <!-- FORM AUTHENTICATION -->
+     <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            
+            // Show a popup message
+            alert('Form Submitted Successfully!');
+            
+            // Optionally, clear the form fields
+            document.getElementById('contact-form').reset();
+            
+            // Optionally, if you want to actually submit the form, you can use the following:
+            // this.submit(); 
+        });
+    </script>
+
+</body>
+
+</html>
